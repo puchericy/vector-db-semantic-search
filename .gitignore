@@ -1,0 +1,7 @@
+chroma_db/
+chroma_db_backup/
+chroma_db_schema_demo/
+chroma_bench/
+embeddings.npy
+__pycache__/
+*.pyc
