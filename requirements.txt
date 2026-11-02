@@ -1,0 +1,7 @@
+# Python 3.12.1, Windows. Версії зафіксовано за фактичним встановленням 30-31.10.2026.
+requests==2.34.2
+numpy==2.5.4
+sentence-transformers==6.2.0
+torch==2.15.0
+rank-bm25==0.2.2
+chromadb==1.5.9

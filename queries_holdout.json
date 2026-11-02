@@ -1,0 +1,297 @@
+[
+  {
+    "id": "h01u",
+    "query": "Як програми можуть звертатися до різних систем управління даними через єдиний стандартизований інтерфейс?",
+    "lang": "uk",
+    "relevant": [
+      85
+    ],
+    "partial": [
+      80,
+      90,
+      57
+    ],
+    "group": "holdout",
+    "pair": "a85"
+  },
+  {
+    "id": "h01e",
+    "query": "How can applications access different data management systems through a single standardized interface?",
+    "lang": "en",
+    "relevant": [
+      85
+    ],
+    "partial": [
+      80,
+      57
+    ],
+    "group": "holdout",
+    "pair": "a85",
+    "note": "англомовну версію ще треба переписати: збіг з початком статті 1,00"
+  },
+  {
+    "id": "h02u",
+    "query": "Який тип систем забезпечує надшвидку реакцію на масові потоки дрібних оперативних транзакцій?",
+    "lang": "uk",
+    "relevant": [
+      86
+    ],
+    "partial": [],
+    "group": "holdout",
+    "pair": "a86"
+  },
+  {
+    "id": "h02e",
+    "query": "Which system type provides ultra-fast response times for massive streams of small transactions?",
+    "lang": "en",
+    "relevant": [
+      86
+    ],
+    "partial": [],
+    "group": "holdout",
+    "pair": "a86"
+  },
+  {
+    "id": "h03u",
+    "query": "Як адміністратори можуть фізично розподіляти об'єкти на носіях за допомогою логічних абстракцій?",
+    "lang": "uk",
+    "relevant": [
+      93
+    ],
+    "partial": [],
+    "group": "holdout",
+    "pair": "a93"
+  },
+  {
+    "id": "h03e",
+    "query": "How can administrators physically distribute database objects across different storage media using logical abstractions?",
+    "lang": "en",
+    "relevant": [
+      93
+    ],
+    "partial": [],
+    "group": "holdout",
+    "pair": "a93"
+  },
+  {
+    "id": "h04u",
+    "query": "Де комп'ютерні програми знаходять актуальні правила переходу на літній час у світі?",
+    "lang": "uk",
+    "relevant": [
+      95
+    ],
+    "partial": [],
+    "group": "holdout",
+    "pair": "a95"
+  },
+  {
+    "id": "h04e",
+    "query": "Where do computer applications find up-to-date rules for observing global daylight saving time?",
+    "lang": "en",
+    "relevant": [
+      95
+    ],
+    "partial": [],
+    "group": "holdout",
+    "pair": "a95"
+  },
+  {
+    "id": "h05u",
+    "query": "Як операційні системи можуть стабільно керувати різними типами повсякденної інформації та зв'язувати їх?",
+    "lang": "uk",
+    "relevant": [
+      97
+    ],
+    "partial": [],
+    "group": "holdout",
+    "pair": "a97"
+  },
+  {
+    "id": "h05e",
+    "query": "How can operating systems persistently manage and link various types of everyday information?",
+    "lang": "en",
+    "relevant": [
+      97
+    ],
+    "partial": [],
+    "group": "holdout",
+    "pair": "a97"
+  },
+  {
+    "id": "h06u",
+    "query": "Яка ліцензія дозволяє користувачам вільно ділитися та змінювати бази даних, зберігаючи свободу?",
+    "lang": "uk",
+    "relevant": [
+      87
+    ],
+    "partial": [],
+    "group": "holdout",
+    "pair": "a87"
+  },
+  {
+    "id": "h06e",
+    "query": "Which license allows users to freely share and modify databases while preserving freedom?",
+    "lang": "en",
+    "relevant": [
+      87
+    ],
+    "partial": [],
+    "group": "holdout",
+    "pair": "a87"
+  },
+  {
+    "id": "h07u",
+    "query": "Як організувати єдине цифрове сховище структурованих відомостей для швидкого пошуку експертних рішень?",
+    "lang": "uk",
+    "relevant": [
+      4
+    ],
+    "partial": [
+      70
+    ],
+    "group": "holdout",
+    "pair": "a4",
+    "note": "близька за змістом стаття 70 (Freebase); у 'Сховище даних' (50) слово 'сховище' збігається, але тема інша"
+  },
+  {
+    "id": "h08u",
+    "query": "Які алгоритми дозволяють автоматично знаходити спеціалізовані поняття та слова у масивах текстових документів?",
+    "lang": "uk",
+    "relevant": [
+      8
+    ],
+    "partial": [],
+    "group": "holdout",
+    "pair": "a8"
+  },
+  {
+    "id": "h09u",
+    "query": "Які існують формалізовані підходи для представлення кількісних і якісних показників у цифрових обчисленнях?",
+    "lang": "uk",
+    "relevant": [
+      11
+    ],
+    "partial": [],
+    "group": "holdout",
+    "pair": "a11",
+    "note": "запит розмитий: слів 'кількісних/якісних' у статті немає, ризик неоднозначності"
+  },
+  {
+    "id": "h10u",
+    "query": "Як забезпечити безпечне зберігання та передавання медичної історії пацієнтів у безпаперовому форматі між клініками?",
+    "lang": "uk",
+    "relevant": [
+      13
+    ],
+    "partial": [
+      35
+    ],
+    "group": "holdout",
+    "pair": "a13",
+    "note": "у статті 13 є обмін даними з іншими медичними установами, але про безпеку майже немає"
+  },
+  {
+    "id": "h11u",
+    "query": "Яким чином реалізувати швидкий пошук перекладу та тлумачення слів за допомогою комп'ютерних баз даних?",
+    "lang": "uk",
+    "relevant": [
+      14
+    ],
+    "partial": [],
+    "group": "holdout",
+    "pair": "a14"
+  },
+  {
+    "id": "h12u",
+    "query": "Де централізовано зберігати архіви програмного забезпечення для їх подальшого завантаження та автоматичного оновлення?",
+    "lang": "uk",
+    "relevant": [
+      42
+    ],
+    "partial": [],
+    "group": "holdout",
+    "pair": "a42"
+  },
+  {
+    "id": "h13u",
+    "query": "Яким чином описується загальна логічна структура та правила цілісності для побудови таблиць бази даних?",
+    "lang": "uk",
+    "relevant": [
+      49
+    ],
+    "partial": [
+      36
+    ],
+    "group": "holdout",
+    "pair": "a49"
+  },
+  {
+    "id": "h14u",
+    "query": "Яку скриптову мову та середовище обрати для швидкого створення динамічних вебсторінок із доступом до даних?",
+    "lang": "uk",
+    "relevant": [
+      62
+    ],
+    "partial": [],
+    "group": "holdout",
+    "pair": "a62"
+  },
+  {
+    "id": "h15u",
+    "query": "Які інструменти допомагають розробникам прискорити написання коду та синхронізувати схеми корпоративних серверів?",
+    "lang": "uk",
+    "relevant": [
+      66
+    ],
+    "partial": [],
+    "group": "holdout",
+    "pair": "a66"
+  },
+  {
+    "id": "h16u",
+    "query": "Як об'єднати структуровані відомості з багатьох джерел у глобальний ресурс для ефективного пошуку?",
+    "lang": "uk",
+    "relevant": [
+      70
+    ],
+    "partial": [
+      4
+    ],
+    "group": "holdout",
+    "pair": "a70"
+  },
+  {
+    "id": "h17u",
+    "query": "Яку інтегровану платформу використовувати для спільної роботи з документами, поштою та корпоративними календарями?",
+    "lang": "uk",
+    "relevant": [
+      71
+    ],
+    "partial": [],
+    "group": "holdout",
+    "pair": "a71"
+  },
+  {
+    "id": "h18u",
+    "query": "Яку вільну програму використовувати для віддаленого керування та адміністрування реляційних серверів через графічний інтерфейс?",
+    "lang": "uk",
+    "relevant": [
+      72
+    ],
+    "partial": [],
+    "group": "holdout",
+    "pair": "a72"
+  },
+  {
+    "id": "h19u",
+    "query": "Яку компактну реляційну систему керування даними обрати для роботи на різних мобільних та десктопних платформах?",
+    "lang": "uk",
+    "relevant": [
+      77
+    ],
+    "partial": [],
+    "group": "holdout",
+    "pair": "a77",
+    "note": "слабка відповідність: у статті 77 (414 знаків) немає слів про мобільні платформи"
+  }
+]

@@ -1,0 +1,634 @@
+[
+  {
+    "id": "q01",
+    "query": "Що забезпечує проєктування баз даних?",
+    "lang": "uk",
+    "relevant": [
+      36
+    ],
+    "partial": [],
+    "group": "own_early"
+  },
+  {
+    "id": "q02",
+    "query": "Як створити модель даних?",
+    "lang": "uk",
+    "relevant": [
+      36
+    ],
+    "partial": [
+      49
+    ],
+    "group": "own_early"
+  },
+  {
+    "id": "q03",
+    "query": "Як забезпечити тестувальників реалістичними тестовими даними, водночас захищаючи конфіденційну інформацію клієнтів?",
+    "lang": "uk",
+    "relevant": [
+      23
+    ],
+    "partial": [],
+    "group": "own_early",
+    "pair": "маскування"
+  },
+  {
+    "id": "q04",
+    "query": "Як надати QA-фахівцям наближені до реальних дані для перевірки системи, не розголошуючи приватну інформацію користувачів?",
+    "lang": "uk",
+    "relevant": [
+      23
+    ],
+    "partial": [],
+    "group": "own_early",
+    "pair": "маскування"
+  },
+  {
+    "id": "q05",
+    "query": "Чому пошук потрібної інформації серед великої кількості даних займає багато часу та які методи дозволяють оптимізувати цей процес?",
+    "lang": "uk",
+    "relevant": [
+      18
+    ],
+    "partial": [],
+    "group": "own_early"
+  },
+  {
+    "id": "q06",
+    "query": "Як забезпечити збереження не тільки актуальних даних, а й історії їхніх попередніх змін?",
+    "lang": "uk",
+    "relevant": [
+      52
+    ],
+    "partial": [],
+    "group": "own_early"
+  },
+  {
+    "id": "q07",
+    "query": "What is data replication in distributed systems?",
+    "lang": "en",
+    "relevant": [
+      41
+    ],
+    "partial": [],
+    "group": "en_cluster"
+  },
+  {
+    "id": "q08",
+    "query": "What is the difference between active and passive replication?",
+    "lang": "en",
+    "relevant": [
+      41
+    ],
+    "partial": [],
+    "group": "en_cluster"
+  },
+  {
+    "id": "q09",
+    "query": "How does single-leader database replication work?",
+    "lang": "en",
+    "relevant": [
+      41
+    ],
+    "partial": [],
+    "group": "en_cluster"
+  },
+  {
+    "id": "q10",
+    "query": "What is a distributed database and how does it work?",
+    "lang": "en",
+    "relevant": [
+      44
+    ],
+    "partial": [],
+    "group": "en_cluster"
+  },
+  {
+    "id": "q11",
+    "query": "Which databases use a shared-nothing architecture?",
+    "lang": "en",
+    "relevant": [
+      44
+    ],
+    "partial": [],
+    "group": "en_cluster",
+    "note": "перевірити, чи в тексті названо конкретні системи"
+  },
+  {
+    "id": "q12",
+    "query": "What are shared-nothing and shared-disk database architectures?",
+    "lang": "en",
+    "relevant": [
+      44
+    ],
+    "partial": [],
+    "group": "en_cluster"
+  },
+  {
+    "id": "q13",
+    "query": "What is the difference between SQL and NoSQL databases?",
+    "lang": "en",
+    "relevant": [
+      83
+    ],
+    "partial": [],
+    "group": "en_cluster"
+  },
+  {
+    "id": "q14",
+    "query": "What does NoSQL mean and how does it work?",
+    "lang": "en",
+    "relevant": [
+      83
+    ],
+    "partial": [],
+    "group": "en_cluster"
+  },
+  {
+    "id": "q15",
+    "query": "What are the main types of NoSQL databases?",
+    "lang": "en",
+    "relevant": [
+      83
+    ],
+    "partial": [],
+    "group": "en_cluster"
+  },
+  {
+    "id": "q16",
+    "query": "Why do NoSQL databases use eventual consistency?",
+    "lang": "en",
+    "relevant": [
+      83
+    ],
+    "partial": [
+      82
+    ],
+    "group": "en_cluster"
+  },
+  {
+    "id": "q17",
+    "query": "How do NoSQL databases handle relationships and joins?",
+    "lang": "en",
+    "relevant": [
+      83
+    ],
+    "partial": [],
+    "group": "en_cluster",
+    "note": "відповідь у статті часткова"
+  },
+  {
+    "id": "q18",
+    "query": "Що таке набір можливих значень для певного атрибута в базі даних (наприклад, для графи «стать») і як він визначається?",
+    "lang": "uk",
+    "relevant": [
+      12
+    ],
+    "partial": [],
+    "group": "pair",
+    "pair": "a12"
+  },
+  {
+    "id": "q19",
+    "query": "What is the collection of values that a data element or attribute may contain in a database, such as marital status, and how is its boundary determined?",
+    "lang": "en",
+    "relevant": [
+      12
+    ],
+    "partial": [],
+    "group": "pair",
+    "pair": "a12"
+  },
+  {
+    "id": "q20",
+    "query": "Як за допомогою спеціальних програмних інструментів безпечно оновлювати або відкочувати версії структури реляційної бази даних?",
+    "lang": "uk",
+    "relevant": [
+      25
+    ],
+    "partial": [],
+    "group": "pair",
+    "pair": "a25"
+  },
+  {
+    "id": "q21",
+    "query": "How can version-controlled changes to a relational database schema be automatically applied or reversed using migration tools?",
+    "lang": "en",
+    "relevant": [
+      25
+    ],
+    "partial": [],
+    "group": "pair",
+    "pair": "a25"
+  },
+  {
+    "id": "q22",
+    "query": "Яка спеціальна техніка дозволяє зберігати складні ієрархічні дерева в реляційних базах даних, обходячи обмеження звичайної реляційної алгебри?",
+    "lang": "uk",
+    "relevant": [
+      27
+    ],
+    "partial": [],
+    "group": "pair",
+    "pair": "a27"
+  },
+  {
+    "id": "q23",
+    "query": "What technique is used to represent hierarchies or trees in relational databases as a solution to the limitations of standard relational algebra and SQL?",
+    "lang": "en",
+    "relevant": [
+      27
+    ],
+    "partial": [],
+    "group": "pair",
+    "pair": "a27"
+  },
+  {
+    "id": "q24",
+    "query": "Чому наявність додаткових копій або фрагментів даних у пам'яті комп'ютера буває корисною для виправлення помилок та відновлення інформації?",
+    "lang": "uk",
+    "relevant": [
+      28
+    ],
+    "partial": [],
+    "group": "pair",
+    "pair": "a28"
+  },
+  {
+    "id": "q25",
+    "query": "Why is the existence of additional or redundant data in computer memory and storage useful for detecting and correcting errors or recovering lost information?",
+    "lang": "en",
+    "relevant": [
+      28
+    ],
+    "partial": [],
+    "group": "pair",
+    "pair": "a28"
+  },
+  {
+    "id": "q26",
+    "query": "Чим відрізняються бази даних, де інформація представлена у вигляді об'єктів із програмування, від звичайних табличних систем?",
+    "lang": "uk",
+    "relevant": [
+      31
+    ],
+    "partial": [],
+    "group": "pair",
+    "pair": "a31"
+  },
+  {
+    "id": "q27",
+    "query": "How do database management systems that represent information as objects differ from traditional table-oriented relational databases?",
+    "lang": "en",
+    "relevant": [
+      31
+    ],
+    "partial": [],
+    "group": "pair",
+    "pair": "a31"
+  },
+  {
+    "id": "q28",
+    "query": "Яка технологія дозволяє зв'язати табличну базу даних із програмою, що написана на об'єктно-орієнтованій мові?",
+    "lang": "uk",
+    "relevant": [
+      32
+    ],
+    "partial": [
+      73
+    ],
+    "group": "pair",
+    "pair": "a32"
+  },
+  {
+    "id": "q29",
+    "query": "What programming technique is used to convert and map data between a relational database and the memory of an object-oriented programming language?",
+    "lang": "en",
+    "relevant": [
+      32
+    ],
+    "partial": [
+      73
+    ],
+    "group": "pair",
+    "pair": "a32"
+  },
+  {
+    "id": "q30",
+    "query": "Що таке проста таблична структура даних, де кожен запис незалежний, а зв'язки між таблицями відсутні?",
+    "lang": "uk",
+    "relevant": [
+      34
+    ],
+    "partial": [],
+    "group": "pair",
+    "pair": "a34"
+  },
+  {
+    "id": "q31",
+    "query": "What is a tabular flat-file structure where records are semantically independent and lack complex relationships or nesting?",
+    "lang": "en",
+    "relevant": [
+      34
+    ],
+    "partial": [],
+    "group": "pair",
+    "pair": "a34"
+  },
+  {
+    "id": "q32",
+    "query": "Що саме повертає база даних у відповідь на виконаний запит і як виглядають ці тимчасові дані?",
+    "lang": "uk",
+    "relevant": [
+      40
+    ],
+    "partial": [],
+    "group": "pair",
+    "pair": "a40"
+  },
+  {
+    "id": "q33",
+    "query": "What format do rows and metadata take when returned as a non-permanent table resulting from a database query?",
+    "lang": "en",
+    "relevant": [
+      40
+    ],
+    "partial": [],
+    "group": "pair",
+    "pair": "a40"
+  },
+  {
+    "id": "q34",
+    "query": "Як підтримувати однаковість двох копій даних на різних пристроях і що робити, якщо вони змінилися незалежно одна від одної?",
+    "lang": "uk",
+    "relevant": [
+      47
+    ],
+    "partial": [
+      82
+    ],
+    "group": "pair",
+    "pair": "a47"
+  },
+  {
+    "id": "q35",
+    "query": "How can consistency be established and maintained between two separate copies of data over time, especially when conflicts occur?",
+    "lang": "en",
+    "relevant": [
+      47
+    ],
+    "partial": [
+      82
+    ],
+    "group": "pair",
+    "pair": "a47"
+  },
+  {
+    "id": "q36",
+    "query": "Для чого створюють окремі централізовані сховища інформації, які збирають дані з різних систем для аналізу та звітності?",
+    "lang": "uk",
+    "relevant": [
+      50
+    ],
+    "partial": [],
+    "group": "pair",
+    "pair": "a50"
+  },
+  {
+    "id": "q37",
+    "query": "What is the purpose of an enterprise data repository used to integrate disparate sources specifically for reporting and business analysis?",
+    "lang": "en",
+    "relevant": [
+      50
+    ],
+    "partial": [],
+    "group": "pair",
+    "pair": "a50"
+  },
+  {
+    "id": "q38",
+    "query": "Як влаштована класична таблиця в базі даних із вертикальними стовпчиками та горизонтальними рядками?",
+    "lang": "uk",
+    "relevant": [
+      51
+    ],
+    "partial": [],
+    "group": "pair",
+    "pair": "a51"
+  },
+  {
+    "id": "q39",
+    "query": "How are data elements organized using vertical columns and horizontal rows within a relational database table?",
+    "lang": "en",
+    "relevant": [
+      51
+    ],
+    "partial": [],
+    "group": "pair",
+    "pair": "a51"
+  },
+  {
+    "id": "q40",
+    "query": "Де зберігаються спеціальні словникові статті з визначеннями понять та їх перекладами різними мовами?",
+    "lang": "uk",
+    "relevant": [
+      53
+    ],
+    "partial": [],
+    "group": "pair",
+    "pair": "a53"
+  },
+  {
+    "id": "q41",
+    "query": "Where are concept-oriented terminological entries and multilingual definitions typically stored and managed?",
+    "lang": "en",
+    "relevant": [
+      53
+    ],
+    "partial": [],
+    "group": "pair",
+    "pair": "a53"
+  },
+  {
+    "id": "q42",
+    "query": "Як забезпечити точність, незмінність і правильність даних протягом усього їхнього життєвого циклу?",
+    "lang": "uk",
+    "relevant": [
+      56
+    ],
+    "partial": [],
+    "group": "pair",
+    "pair": "a56"
+  },
+  {
+    "id": "q43",
+    "query": "How is the accuracy, consistency, and reliability of data maintained throughout its entire lifecycle in a system?",
+    "lang": "en",
+    "relevant": [
+      56
+    ],
+    "partial": [],
+    "group": "pair",
+    "pair": "a56"
+  },
+  {
+    "id": "q44",
+    "query": "Який спеціальний інтерфейс від Microsoft використовується програмами для зручного доступу до різноманітних джерел даних?",
+    "lang": "uk",
+    "relevant": [
+      57
+    ],
+    "partial": [
+      85
+    ],
+    "group": "pair",
+    "pair": "a57"
+  },
+  {
+    "id": "q45",
+    "query": "What interface components developed by Microsoft are used by applications to access various data sources in a uniform way?",
+    "lang": "en",
+    "relevant": [
+      57
+    ],
+    "partial": [
+      85
+    ],
+    "group": "pair",
+    "pair": "a57"
+  },
+  {
+    "id": "q46",
+    "query": "За допомогою якого спеціального типу даних у СУБД можна зберігати великі бінарні файли, наприклад, зображення чи відео?",
+    "lang": "uk",
+    "relevant": [
+      59
+    ],
+    "partial": [],
+    "group": "pair",
+    "pair": "a59",
+    "note": "UK-версія про тип BLOB, EN-версія про об'єктне сховище: не використовувати для міжмовного тесту"
+  },
+  {
+    "id": "q47",
+    "query": "What is a computer data storage approach that manages data as unstructured blobs or objects rather than traditional file hierarchies?",
+    "lang": "en",
+    "relevant": [
+      59
+    ],
+    "partial": [],
+    "group": "pair",
+    "pair": "a59",
+    "note": "UK-версія про тип BLOB, EN-версія про об'єктне сховище: не використовувати для міжмовного тесту"
+  },
+  {
+    "id": "q48",
+    "query": "Що у сховищах даних використовується для класифікації числових показників за категоріями на кшталт часу, місця чи товару?",
+    "lang": "uk",
+    "relevant": [
+      67
+    ],
+    "partial": [],
+    "group": "pair",
+    "pair": "a67"
+  },
+  {
+    "id": "q49",
+    "query": "What structural component in a data warehouse categorizes facts and measures to allow filtering, grouping, and business analysis?",
+    "lang": "en",
+    "relevant": [
+      67
+    ],
+    "partial": [],
+    "group": "pair",
+    "pair": "a67"
+  },
+  {
+    "id": "q50",
+    "query": "Який популярний фреймворк для платформи Java допомагає зв'язати об'єктну модель програми з реляційною базою даних?",
+    "lang": "uk",
+    "relevant": [
+      73
+    ],
+    "partial": [],
+    "group": "pair",
+    "pair": "a73"
+  },
+  {
+    "id": "q51",
+    "query": "What open-source object-relational mapping framework for Java helps developers map domain models to a relational database?",
+    "lang": "en",
+    "relevant": [
+      73
+    ],
+    "partial": [],
+    "group": "pair",
+    "pair": "a73"
+  },
+  {
+    "id": "q52",
+    "query": "За допомогою якої команди в мові баз даних можна додати нові рядки до вже існуючої таблиці?",
+    "lang": "uk",
+    "relevant": [
+      75
+    ],
+    "partial": [],
+    "group": "pair",
+    "pair": "a75"
+  },
+  {
+    "id": "q53",
+    "query": "What SQL statement is used to add one or more new records or rows into a table?",
+    "lang": "en",
+    "relevant": [
+      75
+    ],
+    "partial": [],
+    "group": "pair",
+    "pair": "a75"
+  },
+  {
+    "id": "q54",
+    "query": "Який стандартний програмний інтерфейс дозволяє додаткам на мові Java підключатися та надсилати запити до різних СУБД?",
+    "lang": "uk",
+    "relevant": [
+      80
+    ],
+    "partial": [],
+    "group": "pair",
+    "pair": "a80"
+  },
+  {
+    "id": "q55",
+    "query": "What Java API defines standard methods for applications to connect, query, and update data across various relational database management systems?",
+    "lang": "en",
+    "relevant": [
+      80
+    ],
+    "partial": [],
+    "group": "pair",
+    "pair": "a80"
+  },
+  {
+    "id": "q56",
+    "query": "Як налаштувати синхронізацію бази даних між кількома комп'ютерами так, щоб змінювати дані можна було на будь-якому з них?",
+    "lang": "uk",
+    "relevant": [
+      82
+    ],
+    "partial": [],
+    "group": "pair",
+    "pair": "a82"
+  },
+  {
+    "id": "q57",
+    "query": "What replication method allows data to be stored across a group of computers where any member can update the data and propagate changes?",
+    "lang": "en",
+    "relevant": [
+      82
+    ],
+    "partial": [],
+    "group": "pair",
+    "pair": "a82"
+  }
+]
